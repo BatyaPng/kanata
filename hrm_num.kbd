@@ -27,30 +27,30 @@
   caps esc
   lsft caps
 
-  a (tap-hold-release $tt $ht a lctl)
-  s (tap-hold-release $tt $ht s lmet)
-  d (tap-hold-release $tt $ht d lalt)
-  f (tap-hold-release $tt $ht f lsft)
-  j (tap-hold-release $tt $ht j rsft)
-  k (tap-hold-release $tt $ht k lalt)
-  l (tap-hold-release $tt $ht l rmet)
-  ; (tap-hold-release $tt $ht ; rctl)
+  a (tap-hold $tt $ht a lctl)
+  s (tap-hold $tt $ht s lmet)
+  d (tap-hold $tt $ht d lalt)
+  f (tap-hold $tt $ht f lsft)
+  j (tap-hold $tt $ht j rsft)
+  k (tap-hold $tt $ht k lalt)
+  l (tap-hold $tt $ht l rmet)
+  ; (tap-hold $tt $ht ; rctl)
 
   lalt (tap-hold $tt $ht alt (layer-while-held navig))
   spc (tap-hold $tt $ht spc (layer-while-held num))
 )
 
 (deflayermap (num)
-  a (tap-hold-release $tt $ht 1 lctl)
-  s (tap-hold-release $tt $ht 2 lmet)
-  d (tap-hold-release $tt $ht 3 lalt)
-  f (tap-hold-release $tt $ht 4 lsft)
+  a (tap-hold $tt $ht 1 lctl)
+  s (tap-hold $tt $ht 2 lmet)
+  d (tap-hold $tt $ht 3 lalt)
+  f (tap-hold $tt $ht 4 lsft)
   g 5
   h 6
-  j (tap-hold-release $tt $ht 7 rsft)
-  k (tap-hold-release $tt $ht 8 lalt)
-  l (tap-hold-release $tt $ht 9 rmet)
-  ; (tap-hold-release $tt $ht 0 rctl)
+  j (tap-hold $tt $ht 7 rsft)
+  k (tap-hold $tt $ht 8 lalt)
+  l (tap-hold $tt $ht 9 rmet)
+  ; (tap-hold $tt $ht 0 rctl)
   ' -
   ret =
 
