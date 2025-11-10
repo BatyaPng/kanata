@@ -41,6 +41,7 @@
 )
 
 (deflayermap (num)
+  esc -
   a (tap-hold $tt $ht 1 lctl)
   s (tap-hold $tt $ht 2 lmet)
   d (tap-hold $tt $ht 3 lalt)
@@ -51,8 +52,7 @@
   k (tap-hold $tt $ht 8 lalt)
   l (tap-hold $tt $ht 9 rmet)
   ; (tap-hold $tt $ht 0 rctl)
-  ' -
-  ret =
+  ' =
 
   q f1
   w f2
