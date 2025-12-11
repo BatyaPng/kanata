@@ -41,7 +41,7 @@
 )
 
 (deflayermap (num)
-  esc -
+  caps -
   a (tap-hold $tt $ht 1 lctl)
   s (tap-hold $tt $ht 2 lmet)
   d (tap-hold $tt $ht 3 lalt)
